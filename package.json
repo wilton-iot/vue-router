@@ -75,5 +75,23 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.7.1",
     "webpack-dev-middleware": "^1.9.0"
+  },
+  "wilton": {
+    "excludes": [
+     "build",
+      "dist/vue-router.common.js",
+      "dist/vue-router.esm.js",
+      "dist/vue-router.min.js",
+      "docs",
+      "examples",
+      "flow",
+      "src",
+      "test",
+      "types",
+      "bower.json",
+      "circle.yml",
+      "package-lock.json",
+      "yarn.lock"
+    ]
   }
 }
