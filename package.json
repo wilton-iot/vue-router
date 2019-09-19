@@ -103,5 +103,29 @@
   "bugs": {
     "url": "https://github.com/vuejs/vue-router/issues"
   },
-  "homepage": "https://github.com/vuejs/vue-router#readme"
+  "homepage": "https://github.com/vuejs/vue-router#readme",
+  "wilton": {
+    "excludes": [
+      "assets",
+      "build",
+      "dist/vue-router.common.js",
+      "dist/vue-router.esm.browser.js",
+      "dist/vue-router.esm.browser.min.js",
+      "dist/vue-router.esm.js",
+      "dist/vue-router.min.js",
+      "docs",
+      "docs-gitbook",
+      "examples",
+      "flow",
+      "scripts",
+      "src",
+      "test",
+      "types",
+      "CHANGELOG.md",
+      "yarn.lock"
+    ],
+    "preMinifiedFiles": [
+        "dist/vue-router.js"
+    ]
+  }
 }
