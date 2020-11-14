@@ -132,9 +132,6 @@
       "types",
       "CHANGELOG.md",
       "yarn.lock"
-    ],
-    "preMinifiedFiles": [
-        "dist/vue-router.js"
     ]
   }
 }
