@@ -121,7 +121,6 @@
       "dist/vue-router.esm.browser.js",
       "dist/vue-router.esm.browser.min.js",
       "dist/vue-router.esm.js",
-      "dist/vue-router.min.js",
       "docs",
       "docs-gitbook",
       "examples",
@@ -130,6 +129,8 @@
       "src",
       "test",
       "types",
+      "vetur",
+      "netlify.toml",
       "CHANGELOG.md",
       "yarn.lock"
     ]
